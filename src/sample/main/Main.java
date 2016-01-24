@@ -12,6 +12,8 @@ public class Main {
 		System.out.println("Git practice");
 		int die = 6;
 		System.out.println("Your random number is: " + RandomRoll.randomRoll(die));
+		
+		Cat cat = new Cat("Brown", "short", true);
 	}
 
 }
