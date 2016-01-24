@@ -9,7 +9,7 @@ public class Cat {
 		this.color = color;
 		this.furLength = furLength;
 		this.declawed = declawed;
-		//System.out.println("Contructor created");
+		//System.out.println("Constructor created");
 		
 	}
 
@@ -38,6 +38,11 @@ public class Cat {
 	}
 	
 	public String toString(){
-		return "The cat in question has " + furLength + " "+ color + " fur and is " + "declawed."; 
+		if(!declawed){
+		return "The cat in question has " + furLength + " "+ color + " fur and is not declawed."; 
+		}
+		else{
+			return "The cat in question has " + furLength + " "+ color + " fur and is declawed.";
+		}
 	}
 }

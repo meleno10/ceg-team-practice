@@ -13,7 +13,9 @@ public class Main {
 		int die = 6;
 		System.out.println("Your random number is: " + RandomRoll.randomRoll(die));
 		
-		Cat cat = new Cat("Brown", "short", true);
+		Cat randomCat = new Cat("brown", "short", true);
+		System.out.println(randomCat.toString());
+		haha im going to break the code
 	}
 
 }
