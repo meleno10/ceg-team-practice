@@ -14,6 +14,10 @@ public class Main {
 		System.out.println("Git practice");
 		int die = 6;
 		System.out.println("Your random number is: " + RandomRoll.randomRoll(die));
+		
+		Cat randomCat = new Cat("brown", "short", true);
+		System.out.println(randomCat.toString());
+		//haha im going to break the code
 	}
 
 }
