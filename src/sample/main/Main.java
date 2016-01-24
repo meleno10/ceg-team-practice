@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Git practice");
 		int die = 6;
-		System.out.println(RandomRoll.randomRoll(die));
+		System.out.println("Your random number is: " + RandomRoll.randomRoll(die));
 	}
 
 }
